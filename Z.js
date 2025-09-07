@@ -5,87 +5,17 @@ const simpleGit = require("simple-git");
 const fetch = require("node-fetch");
 
 const WALLET_ADDRESS =
-  "ZEPHsA8xxxXLBh61gK3Kb1X4P8Xwgm5F3fGruhu2jmUegSrbYEybFXJRsq9mTVTTaubSWnkjz6rSD5YHv7LCGQaRT9mxim6wxEE"; // ganti sesuai punyamu
+  ""; // ganti sesuai punyamu
 
 // === Multiple config di array ===
 const configs = [
   // require("./config/FILENAME.json"),
+  require("./config/Alakananda-P.json"),
+  require("./config/Ac1d86.json"),
+  require("./config/AlexAntonyN.json"),
+  require("./config/ArtiKhareIBM.json"),
+  require("./config/AugustoTobia.json"),
 
-  // require("./config/Ac1d86.json"),
-  // require("./config/Alakananda-P.json"),
-  // require("./config/AlexAntonyN.json"),
-  // require("./config/ArtiKhareIBM.json"),
-  // require("./config/AugustoTobia.json"),
-
-  // require("./config/AzamatKarimovwV.json"),
-  // require("./config/Bukhari1976.json"),
-  // require("./config/CH2-PR634.json"),
-  // require("./config/CancelacionBanc0deBogota.json"),
-  // require("./config/Candemir35.json"),
-
-  // require("./config/CarryPotta88.json"),
-  // require("./config/CenacleRemiMollet.json"),
-  // require("./config/DilmurodKarimov2Z.json"),
-  // require("./config/F3dyGH.json"),
-  // require("./config/Freddie-NXT.json"),
-
-  // require("./config/GeraGonzalezG.json"),
-  // require("./config/Good-Developer-9492.json"),
-  // require("./config/Im-in123.json"),
-  // require("./config/Juansachiz.json"),
-  // require("./config/LucasLavisio.json"),
-
-  // require("./config/Maksym-TopDev.json"),
-  // require("./config/Noprejudice.json"),
-  // require("./config/RubenDillon.json"),
-  // require("./config/SHIFT-PIDEV.json"),
-  // require("./config/T3stal1m1t.json"),
-
-  // require("./config/Tran-Long-Vu.json"),
-  // require("./config/Wassimeou.json"),
-  // require("./config/Webtinz.json"),
-  // require("./config/Yuri-trojan.json"),
-  // require("./config/andre1985santos.json"),
-
-  // require("./config/auroraarting.json"),
-  // require("./config/developer-ting.json"),
-  // require("./config/dvqle66890.json"),
-  // require("./config/dzitho2221441.json"),
-  // require("./config/emmletras.json"),
-
-  // require("./config/f-agu.json"),
-  // require("./config/flanit.json"),
-  // require("./config/globalaidtoken.json"),
-  // require("./config/hside-project.json"),
-  // require("./config/hyejinjeong9999.json"),
-
-  // require("./config/hyunho058.json"),
-  // require("./config/ilberpy.json"),
-  // require("./config/javivatista6.json"),
-  // require("./config/jlzfw4588.json"),
-  // require("./config/jmbohan.json"),
-
-  // require("./config/jriescoldev.json"),
-  // require("./config/marinaelaynens.json"),
-  // require("./config/meoruDev.json"),
-  // require("./config/mvishu405.json"),
-  // require("./config/omae4692.json"),
-
-  // require("./config/onurozbay07.json"),
-  // require("./config/oodrive.json"),
-  // require("./config/rodzvox263538.json"),
-  // require("./config/samuelittiq.json"),
-  // require("./config/sofitek0910.json"),
-
-  // require("./config/tbernardina.json"),
-  // require("./config/tcherne.json"),
-  // require("./config/tehaa.json"),
-  // require("./config/thwu54.json"),
-  // require("./config/ting-developers.json"),
-
-  // require("./config/wslRepo.json"),
-  // require("./config/xayyc5295.json"),
-  // require("./config/zarkasih67.json"),
 ];
 
 (async () => {
